@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "PaymentEvent",
+  "namespace": "com.payment.event",
+  "fields": [
+    { "name": "transactionId", "type": "string" },
+    { "name": "userId", "type": "string" },
+    { "name": "amount", "type": "double" },
+    { "name": "currency", "type": "string" },
+    { "name": "status", "type": "string" }
+  ]
+}
